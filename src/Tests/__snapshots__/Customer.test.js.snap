@@ -1,0 +1,103 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="bg-light m-4"
+>
+  <h5>
+    Customers
+  </h5>
+  <table
+    className="table p-2"
+  >
+    <thead
+      className="thead-light"
+    >
+      <tr>
+        <th>
+          ID
+        </th>
+        <th>
+          First Name
+        </th>
+        <th>
+          Last Name
+        </th>
+        <th>
+          Email
+        </th>
+        <th>
+          Created
+        </th>
+        <th>
+          Orders
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      Loading...
+    </tbody>
+  </table>
+  <div
+    className="text-center"
+  >
+    <button
+      className="btn btn-info"
+      onClick={[Function]}
+    >
+      Load More
+    </button>
+  </div>
+</div>
+`;
+
+exports[`renders customer component correctly 1`] = `
+<div
+  className="bg-light m-4"
+>
+  <h5>
+    Customers
+  </h5>
+  <table
+    className="table p-2"
+  >
+    <thead
+      className="thead-light"
+    >
+      <tr>
+        <th>
+          ID
+        </th>
+        <th>
+          First Name
+        </th>
+        <th>
+          Last Name
+        </th>
+        <th>
+          Email
+        </th>
+        <th>
+          Created
+        </th>
+        <th>
+          Orders
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      Loading...
+    </tbody>
+  </table>
+  <div
+    className="text-center"
+  >
+    <button
+      className="btn btn-info"
+      onClick={[Function]}
+    >
+      Load More
+    </button>
+  </div>
+</div>
+`;

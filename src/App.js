@@ -1,24 +1,23 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-
+import OrderCount from './components/OrderCount';
+import OrderPrice from './components/OrderPrice';
+import Customer from './components/Customer';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='container-fluid mt-3 p-2'>
+      <h1 className='text-center'>RevTap Assignment</h1>
+      <div className='row d-flex justify-content-around'>
+        <div className='col-md-5 bg-light p-1'>
+          <OrderCount></OrderCount>
+        </div>
+        <div className='col-md-5 bg-light p-1'>
+          <OrderPrice></OrderPrice>
+        </div>
+      </div>
+      <div className='p-2'>
+        <Customer></Customer>
+      </div>
     </div>
   );
 }

@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<tr>
+  <td />
+  <td />
+  <td />
+  <td />
+  <td />
+  <td />
+</tr>
+`;
+
+exports[`renders correctly one item 1`] = `
+<tr>
+  <td>
+    some random id
+  </td>
+  <td>
+    sudhir
+  </td>
+  <td>
+    kumar
+  </td>
+  <td />
+  <td>
+    any date
+  </td>
+  <td>
+    3
+  </td>
+</tr>
+`;
